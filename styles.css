@@ -10,11 +10,31 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
-header div{
-  width: 50%;
-  border: solid 1px white;
-  height: 20%;
+.d-flex {
+  display: flex;
 }
-header div img{
+header img {
+  width: 200px;
+}
+section div img {
   width: 100%;
+}
+.texte {
+  width: 45%;
+}
+.texte h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.texte p {
+  font-weight: 400;
+  line-height: 29px;
+}
+.texte button {
+  padding: 1em 3em;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 8px 8px 5px hsl(257, 48%, 40%);
+  font-size: 1rem;
+  color: hsl(257, 40%, 49%);
 }

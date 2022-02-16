@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
-  background: orange;
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+header div{
+  width: 50%;
+  border: solid 1px white;
+  height: 20%;
+}
+header div img{
+  width: 100%;
 }

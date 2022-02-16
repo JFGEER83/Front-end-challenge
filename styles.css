@@ -16,11 +16,17 @@ body {
 header img {
   width: 200px;
 }
+section{
+  justify-content: space-around;
+}
+section div{
+  width: 50%;
+}
 section div img {
   width: 100%;
 }
 .texte {
-  width: 45%;
+  width: 25%;
 }
 .texte h2 {
   font-weight: 600;
